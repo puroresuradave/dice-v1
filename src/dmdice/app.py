@@ -187,10 +187,10 @@ class DMDice(toga.App):
         self.main_window.info_dialog("Cursed Weapon Crit", func.extraCrit("c"))
         
     def button19(self, widget):
-        self.main_window.info_dialog("Dragon Attacking Crit", func.dragonAD(1))
+        self.main_window.info_dialog("Dragon Defending Crit", func.dragonAD(2))
         
     def button20(self, widget):
-        self.main_window.info_dialog("Dragon Defending Crit", func.dragonAD(2))
+        self.main_window.info_dialog("Dragon Attacking Crit", func.dragonAD(1))
         
 
 def main():
