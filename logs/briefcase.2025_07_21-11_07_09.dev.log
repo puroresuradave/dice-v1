@@ -1,0 +1,390 @@
+Date/Time:       2025-07-21 11:07:09 
+Command line:    /home/dave/workspace/beeware-tutorial/beeware-venv/bin/briefcase dev
+
+OS Release:      Linux 6.8.0-64-generic
+OS Version:      #67-Ubuntu SMP PREEMPT_DYNAMIC Sun Jun 15 20:23:31 UTC 2025
+Architecture:    x86_64
+Platform:        Linux-6.8.0-64-generic-x86_64-with-glibc2.39
+
+Python exe:      /home/dave/workspace/beeware-tutorial/beeware-venv/bin/python
+Python version:  3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.23
+Target platform: linux
+Target format:   None
+
+Environment Variables:
+	BUN_INSTALL=/home/dave/.bun
+	CINNAMON_VERSION=6.2.9
+	COLORTERM=truecolor
+	DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+	DESKTOP_SESSION=cinnamon
+	DISPLAY=:0
+	ENVMAN_LOAD=loaded
+	GDMSESSION=cinnamon
+	GDM_LANG=en_US
+	GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+	GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/5b0ea76e_9ffd_4f33_a9d8_8f4565a1455d
+	GNOME_TERMINAL_SERVICE=:1.150
+	GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+	GTK3_MODULES=xapp-gtk3-module
+	GTK_MODULES=gail:atk-bridge
+	HOME=/home/dave
+	LANG=en_US.UTF-8
+	LANGUAGE=en_US
+	LESSCLOSE=/usr/bin/lesspipe %s %s
+	LESSOPEN=| /usr/bin/lesspipe %s
+	LOGNAME=dave
+	LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+	NVM_BIN=/home/dave/.nvm/versions/node/v21.7.0/bin
+	NVM_CD_FLAGS=
+	NVM_DIR=/home/dave/.nvm
+	NVM_INC=/home/dave/.nvm/versions/node/v21.7.0/include/node
+	OLDPWD=/home/dave/workspace/ttrpg-projects/dice/dmdice/src
+	PATH=/home/dave/workspace/beeware-tutorial/beeware-venv/bin:/home/dave/workspace/github.com/puroresuradave/learn-cicd-typescript-starter/google-cloud-sdk/bin:/home/dave/.bun/bin:/home/dave/.nvm/versions/node/v21.7.0/bin:/home/dave/go/bin:/home/dave/.local/opt/go/bin:/home/dave/.local/bin:/home/dave/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dave/.turso
+	PS1=(beeware-venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ 
+	PWD=/home/dave/workspace/ttrpg-projects/dice/dmdice
+	QT_ACCESSIBILITY=1
+	SESSION_MANAGER=local/dave--old-laptop:@/tmp/.ICE-unix/1673,unix/dave--old-laptop:/tmp/.ICE-unix/1673
+	SHELL=/bin/bash
+	SHLVL=1
+	SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+	TERM=xterm-256color
+	USER=dave
+	VIRTUAL_ENV=/home/dave/workspace/beeware-tutorial/beeware-venv
+	VIRTUAL_ENV_PROMPT=(beeware-venv) 
+	VTE_VERSION=7600
+	XAUTHORITY=/home/dave/.Xauthority
+	XDG_CONFIG_DIRS=/etc/xdg/xdg-cinnamon:/etc/xdg
+	XDG_CURRENT_DESKTOP=X-Cinnamon
+	XDG_DATA_DIRS=/usr/share/cinnamon:/usr/share/gnome:/home/dave/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+	XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/dave
+	XDG_RUNTIME_DIR=/run/user/1000
+	XDG_SEAT=seat0
+	XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+	XDG_SESSION_CLASS=user
+	XDG_SESSION_DESKTOP=cinnamon
+	XDG_SESSION_ID=c2
+	XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+	XDG_SESSION_TYPE=x11
+	XDG_VTNR=7
+	_=/home/dave/workspace/beeware-tutorial/beeware-venv/bin/briefcase
+
+pyproject.toml:
+# This project was generated with 0.3.23 using template: https://github.com/beeware/briefcase-template @ v0.3.23
+[tool.briefcase]
+project_name = "DM Dice"
+bundle = "com.puroresuradave"
+version = "0.0.1"
+url = "https://puroresuradave.com/dmdice"
+license.file = "LICENSE"
+author = "puroresuradave"
+author_email = "puroresuradave@gmail.com"
+
+[tool.briefcase.app.dmdice]
+formal_name = "DM Dice"
+description = "Various DM assistance from dice"
+long_description = """More details about the app should go here.
+"""
+sources = [
+    "src/dmdice",
+]
+test_sources = [
+    "tests",
+]
+
+requires = [
+]
+test_requires = [
+    "pytest",
+]
+
+[tool.briefcase.app.dmdice.macOS]
+universal_build = true
+requires = [
+    "toga-cocoa~=0.5.0",
+    "std-nslog~=1.0.3",
+]
+
+[tool.briefcase.app.dmdice.linux]
+requires = [
+    "toga-gtk~=0.5.0",
+    # PyGObject 3.52.1 enforces a requirement on libgirepository-2.0-dev. This library
+    # isn't available on Debian 12/Ubuntu 22.04. If you don't need to support those (or
+    # older) releases, you can remove this version pin. See beeware/toga#3143.
+    "pygobject < 3.52.1",
+]
+
+[tool.briefcase.app.dmdice.linux.system.debian]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "libcairo2-dev",
+    # One of the following two packages are needed to compile PyGObject wheel. If you
+    # remove the pygobject pin in the requires list, you should also change to the
+    # version 2.0 of the girepository library. See beeware/toga#3143.
+    "libgirepository1.0-dev",
+    # "libgirepository-2.0-dev",
+]
+
+system_runtime_requires = [
+    # Needed to provide GTK and its GI bindings
+    "gir1.2-gtk-3.0",
+    # One of the following two packages are needed to use PyGObject at runtime. If you
+    # remove the pygobject pin in the requires list, you should also change to the
+    # version 2.0 of the girepository library. See beeware/toga#3143.
+    "libgirepository-1.0-1",
+    # "libgirepository-2.0-0",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra-gtk3-module",
+    # Needed to provide WebKit2 at runtime
+    # Note: Debian 11 requires gir1.2-webkit2-4.0 instead
+    # "gir1.2-webkit2-4.1",
+]
+
+[tool.briefcase.app.dmdice.linux.system.rhel]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo-gobject-devel",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection-devel",
+]
+
+system_runtime_requires = [
+    # Needed to support Python bindings to GTK
+    "gobject-introspection",
+    # Needed to provide GTK
+    "gtk3",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra-gtk3",
+    # Needed to provide WebKit2 at runtime
+    # "webkit2gtk3",
+]
+
+[tool.briefcase.app.dmdice.linux.system.suse]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo-devel",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection-devel",
+]
+
+system_runtime_requires = [
+    # Needed to provide GTK
+    "gtk3",
+    # Needed to support Python bindings to GTK
+    "gobject-introspection", "typelib(Gtk) = 3.0",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra-gtk3-module",
+    # Needed to provide WebKit2 at runtime
+    # "libwebkit2gtk3", "typelib(WebKit2)",
+]
+
+[tool.briefcase.app.dmdice.linux.system.arch]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection",
+    # Runtime dependencies that need to exist so that the
+    # Arch package passes final validation.
+    # Needed to provide GTK
+    "gtk3",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra",
+    # Needed to provide WebKit2
+    # "webkit2gtk",
+]
+
+system_runtime_requires = [
+    # Needed to provide GTK
+    "gtk3",
+    # Needed to provide PyGObject bindings
+    "gobject-introspection-runtime",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra",
+    # Needed to provide WebKit2 at runtime
+    # "webkit2gtk",
+]
+
+[tool.briefcase.app.dmdice.linux.appimage]
+manylinux = "manylinux_2_28"
+
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo-gobject-devel",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection-devel",
+    # Needed to provide GTK
+    "gtk3-devel",
+    # Dependencies that GTK looks for at runtime, that need to be
+    # in the build environment to be picked up by linuxdeploy
+    "libcanberra-gtk3",
+    "PackageKit-gtk3-module",
+    "gvfs-client",
+]
+
+linuxdeploy_plugins = [
+    "DEPLOY_GTK_VERSION=3 gtk",
+]
+
+[tool.briefcase.app.dmdice.linux.flatpak]
+flatpak_runtime = "org.gnome.Platform"
+flatpak_runtime_version = "48"
+flatpak_sdk = "org.gnome.Sdk"
+
+[tool.briefcase.app.dmdice.windows]
+requires = [
+    "toga-winforms~=0.5.0",
+]
+
+# Mobile deployments
+[tool.briefcase.app.dmdice.iOS]
+requires = [
+    "toga-iOS~=0.5.0",
+    "std-nslog~=1.0.3",
+]
+
+[tool.briefcase.app.dmdice.android]
+requires = [
+    "toga-android~=0.5.0",
+]
+
+base_theme = "Theme.MaterialComponents.Light.DarkActionBar"
+
+build_gradle_dependencies = [
+    "com.google.android.material:material:1.12.0",
+    # Needed for DetailedList
+    # "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+    # Needed for MapView
+    # "org.osmdroid:osmdroid-android:6.1.20",
+]
+
+# Web deployments
+[tool.briefcase.app.dmdice.web]
+requires = [
+    "toga-web~=0.5.0",
+]
+style_framework = "Shoelace v2.3"
+
+Briefcase Log:
+[11:07:08]                                                                                                                                                                dev.py:251
+           [dmdice] Starting in dev mode...                                                                                                                               dev.py:251
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     /home/dave/workspace/beeware-tutorial/beeware-venv/bin/python -c 'import runpy,                                                                 subprocess.py:838
+           sys;sys.path.pop(0);sys.argv.extend([]);runpy.run_module("dmdice", run_name="__main__", alter_sys=True)'                                                                 
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /home/dave                                                                                                                                      subprocess.py:838
+           >>> Environment Overrides:                                                                                                                              subprocess.py:838
+           >>>     PYTHONPATH=/home/dave/workspace/ttrpg-projects/dice/dmdice/src                                                                                  subprocess.py:838
+           >>>     PYTHONUNBUFFERED=1                                                                                                                              subprocess.py:838
+           >>>     PYTHONDEVMODE=1                                                                                                                                 subprocess.py:838
+           >>>     PYTHONUTF8=1                                                                                                                                    subprocess.py:838
+           ===========================================================================                                                                                    run.py:171
+[11:07:09] Traceback (most recent call last):                                                                                                                      subprocess.py:195
+             File "<string>", line 1, in <module>                                                                                                                  subprocess.py:195
+             File "<frozen runpy>", line 226, in run_module                                                                                                        subprocess.py:195
+             File "<frozen runpy>", line 98, in _run_module_code                                                                                                   subprocess.py:195
+             File "<frozen runpy>", line 88, in _run_code                                                                                                          subprocess.py:195
+             File "/home/dave/workspace/ttrpg-projects/dice/dmdice/src/dmdice/__main__.py", line 1, in <module>                                                    subprocess.py:195
+               from dmdice.app import main                                                                                                                         subprocess.py:195
+             File "/home/dave/workspace/ttrpg-projects/dice/dmdice/src/dmdice/app.py", line 5, in <module>                                                         subprocess.py:195
+               import dmdice.mylib.func as func                                                                                                                    subprocess.py:195
+             File "/home/dave/workspace/ttrpg-projects/dice/dmdice/src/dmdice/mylib/func.py", line 1, in <module>                                                  subprocess.py:195
+               import dice                                                                                                                                         subprocess.py:195
+           ModuleNotFoundError: No module named 'dice'                                                                                                             subprocess.py:195
+                                                                                                                                                                      __main__.py:42
+           Problem running app dmdice.                                                                                                                                __main__.py:43
+           Saving log... started                                                                                                                                      console.py:433
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /home/dave/workspace/beeware-tutorial/beeware-venv/lib/python3.12/site-packages/briefcase/__main__.py:27 in main                                                                 │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────╮                                                      │
+│ │       command = <briefcase.commands.dev.DevCommand object at 0x7ec835acda30>                                            │                                                      │
+│ │       console = <briefcase.console.Console object at 0x7ec835aadf70>                                                    │                                                      │
+│ │             e = BriefcaseCommandError('Problem running app dmdice.')                                                    │                                                      │
+│ │ extra_cmdline = []                                                                                                      │                                                      │
+│ │       options = {'appname': None, 'update_requirements': False, 'run_app': True, 'test_mode': False, 'passthrough': []} │                                                      │
+│ │     overrides = {}                                                                                                      │                                                      │
+│ │        result = 200                                                                                                     │                                                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                      │
+│                                                                                                                                                                                  │
+│ /home/dave/workspace/beeware-tutorial/beeware-venv/lib/python3.12/site-packages/briefcase/commands/dev.py:253 in __call__                                                        │
+│                                                                                                                                                                                  │
+│   250 │   │   │   else:                                                                                                                                                          │
+│   251 │   │   │   │   self.console.info("Starting in dev mode...", prefix=app.app_name)                                                                                          │
+│   252 │   │   │   env = self.get_environment(app, test_mode=test_mode)                                                                                                           │
+│ ❱ 253 │   │   │   return self.run_dev_app(                                                                                                                                       │
+│   254 │   │   │   │   app,                                                                                                                                                       │
+│   255 │   │   │   │   env,                                                                                                                                                       │
+│   256 │   │   │   │   test_mode=test_mode,                                                                                                                                       │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────────────────╮                │
+│ │                 app = <com.puroresuradave.dmdice v0.0.1 AppConfig>                                                                                            │                │
+│ │             appname = None                                                                                                                                    │                │
+│ │      dist_info_path = PosixPath('/home/dave/workspace/ttrpg-projects/dice/dmdice/src/dmdice.dist-info')                                                       │                │
+│ │                 env = {'PYTHONPATH': '/home/dave/workspace/ttrpg-projects/dice/dmdice/src', 'PYTHONUNBUFFERED': '1', 'PYTHONDEVMODE': '1', 'PYTHONUTF8': '1'} │                │
+│ │             options = {}                                                                                                                                      │                │
+│ │         passthrough = []                                                                                                                                      │                │
+│ │             run_app = True                                                                                                                                    │                │
+│ │                self = <briefcase.commands.dev.DevCommand object at 0x7ec835acda30>                                                                            │                │
+│ │           test_mode = False                                                                                                                                   │                │
+│ │ update_requirements = False                                                                                                                                   │                │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                │
+│                                                                                                                                                                                  │
+│ /home/dave/workspace/beeware-tutorial/beeware-venv/lib/python3.12/site-packages/briefcase/commands/dev.py:170 in run_dev_app                                                     │
+│                                                                                                                                                                                  │
+│   167 │   │   │   )                                                                                                                                                              │
+│   168 │   │   │                                                                                                                                                                  │
+│   169 │   │   │   # Start streaming logs for the app.                                                                                                                            │
+│ ❱ 170 │   │   │   self._stream_app_logs(                                                                                                                                         │
+│   171 │   │   │   │   app,                                                                                                                                                       │
+│   172 │   │   │   │   popen=app_popen,                                                                                                                                           │
+│   173 │   │   │   │   test_mode=test_mode,                                                                                                                                       │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │         app = <com.puroresuradave.dmdice v0.0.1 AppConfig>                                                                                                                   │ │
+│ │   app_popen = <Popen: returncode: 1 args: ['/home/dave/workspace/beeware-tutorial/beeware-...>                                                                               │ │
+│ │     cmdline = ['/home/dave/workspace/beeware-tutorial/beeware-venv/bin/python', '-c', 'import runpy, sys;sys.path.pop(0);sys.argv.extend([]);runpy.run_module("dmdice",'+37] │ │
+│ │         env = {'PYTHONPATH': '/home/dave/workspace/ttrpg-projects/dice/dmdice/src', 'PYTHONUNBUFFERED': '1', 'PYTHONDEVMODE': '1', 'PYTHONUTF8': '1'}                        │ │
+│ │ main_module = 'dmdice'                                                                                                                                                       │ │
+│ │     options = {}                                                                                                                                                             │ │
+│ │ passthrough = []                                                                                                                                                             │ │
+│ │        self = <briefcase.commands.dev.DevCommand object at 0x7ec835acda30>                                                                                                   │ │
+│ │   test_mode = False                                                                                                                                                          │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ /home/dave/workspace/beeware-tutorial/beeware-venv/lib/python3.12/site-packages/briefcase/commands/run.py:202 in _stream_app_logs                                                │
+│                                                                                                                                                                                  │
+│   199 │   │   │   │   # If we're monitoring an actual app (not just a log stream),                                                                                               │
+│   200 │   │   │   │   # and the app didn't exit cleanly, surface the error to the user.                                                                                          │
+│   201 │   │   │   │   if popen.poll() != 0:                                                                                                                                      │
+│ ❱ 202 │   │   │   │   │   raise BriefcaseCommandError(f"Problem running app {app.app_name}.")                                                                                    │
+│   203 │   │                                                                                                                                                                      │
+│   204 │   │   except KeyboardInterrupt:                                                                                                                                          │
+│   205 │   │   │   pass  # Catch CTRL-C to exit normally                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                              │
+│ │          app = <com.puroresuradave.dmdice v0.0.1 AppConfig>                                     │                                                                              │
+│ │ clean_filter = None                                                                             │                                                                              │
+│ │ clean_output = False                                                                            │                                                                              │
+│ │   log_filter = <briefcase.commands.run.LogFilter object at 0x7ec834479430>                      │                                                                              │
+│ │   log_stream = False                                                                            │                                                                              │
+│ │        popen = <Popen: returncode: 1 args: ['/home/dave/workspace/beeware-tutorial/beeware-...> │                                                                              │
+│ │         self = <briefcase.commands.dev.DevCommand object at 0x7ec835acda30>                     │                                                                              │
+│ │    test_mode = False                                                                            │                                                                              │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Problem running app dmdice.
